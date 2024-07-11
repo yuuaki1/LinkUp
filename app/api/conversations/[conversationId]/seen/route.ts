@@ -68,7 +68,7 @@ export async function POST (
             return NextResponse.json(conversation)
         }
 
-        await pusherServer.trigger(conversationId, 'message:update', updateMessage)
+        await pusherServer.trigger(conversationId!, 'message:update', updateMessage)
 
         return NextResponse.json(updateMessage)
     }
