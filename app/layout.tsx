@@ -8,8 +8,8 @@ import ActiveStatus from "./components/ActiveStatus";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Freakster",
-  description: "Best messaging app for freaky people",
+  title: "Linkup",
+  description: "Best messaging app for networking!",
 };
 
 export default function RootLayout({
