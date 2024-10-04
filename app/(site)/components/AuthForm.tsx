@@ -116,7 +116,7 @@ const AuthForm = () => {
                 </div>
                 <div className="flex gap-2 justify-center text-sm mt-6 px-2 text-gray-300">
                     <div className = ''>
-                        {variant === 'LOGIN' ? 'New to Freakster?' : 'Already have an account?'}
+                        {variant === 'LOGIN' ? 'New to Linkup?' : 'Already have an account?'}
                     </div>
                     <div onClick={toggleVariant} className="underline cursor-pointer">
                         {variant === 'LOGIN' ? 'Create an account' : 'Sign in'}
